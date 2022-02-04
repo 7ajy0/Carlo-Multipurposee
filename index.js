@@ -89,7 +89,7 @@ client.on('message', async message => {
   //Setting Bot's Status
   client.user.setActivity({
     type: 'LISTENING',
-    name: `to ${prefix}help`
+    name: `${prefix}help`
   })
 })
 
